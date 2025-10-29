@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/cf9b4bc738.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a id="top"></a>
+
+    <header>
+        <div class="container">
+            <nav id="navbar" aria-label="Primary Navigation">
+                <div class="logo"> 
+                   <h1><span class="letter-d">Updesh Singh </h1>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#about" >About Me</a></li>
+                    <li><a href="#services" >Services</a></li>
+                    <li><a href="#portfolio" >Portfolio</a></li>
+                    <li><a href="#contact" >Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h2>Hey, I am <span>Updesh Singh</span> </h2>
+                <p>I am an AI Engineer</p>
+                <div class="social-icons" aria-label="Social Media Links">
+                    <a href="https://www.linkedin.com/in/updesh-singh-357aa0344"> <i class="fa-brands fa-linkedin"></i> </a>
+                    <a href="updeshsingh9063"> <i class="fa-brands fa-github"></i> </a>
+                    <a href="#"> <i class="fa-brands fa-x-twitter"></i> </a>
+                    <a href="#"> <i class="fa-brands fa-youtube"></i> </a>
+                    <a href="https://www.instagram.com/_updesh._"> <i class="fa-brands fa-instagram"></i> </a>
+                </div>
+            </div>
+        
+        </div>
+    </header>
+
+
+    
+    <main>
+        <section id="about">
+            <div class="container about-wrapper">
+                <div class="about-content">
+                    <div class="image-wrapper">
+                        <div class="my-img">
+                            <img src="images/profile.jpg" alt="Updesh Profile Picture" class="original-img">
+                        </div>
+                        <div class="layer-img">
+                            <img src="images/no-bg.profle.png" alt="Updesh Profile picture without background" class="hover-img">
+                        </div>
+                    </div>
+    
+                    <div class="text-content">
+                        <h1>About Me</h1>
+                        <p>I’m an AI Engineer with a passion for building intelligent systems that solve real-world problems. I specialize in machine learning, deep learning, and NLP, focusing on smart, scalable solutions. My goal is To make AI more ethical, efficient, and impactful—one model at a time
+
+
+</p>
+                    </div>
+                </div>
+                <div class="more-about-me">
+                    <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="openTab(event, 'skills')" role="tab" aria-selected="true">
+                            Skills</p>
+                        <p class="tab-link" onclick="openTab(event, 'education')" role="tab" aria-selected="false">Education
+                        </p>
+                        <p class="tab-link" onclick="openTab(event, 'experience')" role="tab" aria-selected="false">
+                            Experience</p>
+                    </div>
+                    <div class="tab-divider"></div>
+                    <div class="tab-contents active-tab" id="skills" role="tabpanel">
+                        <ul>
+                            <li><span>Proficient in Python:</span> <br> Expert in writing and deploying efficient Python Code using libraries and APIs</li>
+                            <li><span>Machine learning and Deep Learning:</span> <br> Strong foundation in machine learning and deep learning with real-world model training</li>
+                            <li><span>Data handling & Real-World Deployment:</span> <br>Skilled in data handling and deploying AI models using cloud and modern tools</li>
+                        </ul>
+                    </div>
+    
+                    <div class="tab-contents" id="education" role="tabpanel">
+                        <ul>
+                            <li><span>Schooling:</span> <br> Sr Global School Lucknow</li>
+                            <li><span>Bachelors of Technology(B.tech):</span> <br> Computer Science Engineering(Specialization in AIML) <br> GLA University Mathura
+                            </li>
+                            <li><span>Masters:</span> <br> Currently Pending ,Will be added soon</li>
+                        </ul>
+                    </div>
+    
+                    <div class="tab-contents" id="experience" role="tabpanel">
+                        <ul>
+                            <li><span>Experience 1:</span> <br> Will be added soon.</li>
+                            <li><span>Experience 2:</span> <br> Will be added soon.</li>
+                            <li><span>Experience 3:</span><br> Will be added soon</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div class="items">
+                        <i class="fa-solid fa-hand-holding-heart fa-2x"></i>
+                        <h2>AI & Machine Learning Model Deployment</h2>
+                        <p>Building intelligent models for prediction,classification,and automation tasks.</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-balance-scale fa-2x"></i>
+                        <h2>Python Automation & API Integration</h2>
+                        <p>Creating efficient scripts and Rest APIs to automat real-world workflows.</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-clock-rotate-left fa-2x"></i>
+                        <h2>Model Deployment & AI Web App Integration</h2>
+                        <p>Deploying ML models into web apps using Flask,FastAPI,and Docker.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">MY WORK</h1>
+                <div class="portfolio-list">
+                    <div class="portfolio">
+                        <div class="image-container">
+                            <img src="images/hospitalmanagmentsystem.jpg" alt="Meteor Extinction">
+                        </div>
+                        <div class="layer">
+                             <h3 class="title">Hospital Managment System</h3>
+                            <p class="description"> Built a prototype Mini Hospital Management System as part of my school project. Designed key modules like patient registration, appointment scheduling, medical records management, and staff coordination. Focused on streamlining workflows and improving accessibility through a clean, user-friendly interface.
+</p>
+                            <a href="#" class="read-more-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio">
+                        <div class="image-container">
+                            <img src="images/portfolio.jpg" alt="Thanos' Snap">
+                        </div>
+                        <div class="layer">
+                              <h3 class="title">Portfolio Website</h3>
+                            <p class="description">💻 Built a personal portfolio website during my vacation period, before starting college—leveraging AI tools to streamline design, content generation, and SEO optimization. The site showcases my projects, skills, and achievements in a clean, responsive layout. This experience gave me hands-on exposure to prompt engineering, web development, and creative ways to integrate AI into everyday tools.
+</p>
+                            <a href="#" class="read-more-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio">
+                        <div class="image-container">
+                            <img src="images/inprogress.jpg" alt="Titanic Sinking">
+                        </div>
+                        <div class="layer">
+                               <h3 class="title">In Progress</h3>
+                            <p class="description">In Progress</p>
+                             <a href="#" class="read-more-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tag-line">
+                    <div class="cirlces">
+                        <div class="circle circle-1"></div>
+                        <div class="circle circle-2"></div>
+                        <div class="circle circle-3"></div>
+                    </div>
+                    <p>"AI engineer intelligence not to mimic minds—but to unlock new ways of thinking beyond them."</p>
+                </div>
+        
+                <a href="#" class="btn">See More</a>
+            </div>
+        </section>     
+    <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    
+    <div class="testimonial-item">
+        <p>"Updesh delivered a high-quality AI project ahead of schedule. His attention to detail and passion for excellence truly impressed us."</p>
+        <span>- Dr. Meera Patel, CTO at TechNova</span>
+    </div>
+    
+    <div class="testimonial-item">
+        <p>"He is one of the most hardworking professionals I’ve worked with. His deep knowledge of machine learning helped us transform our product."</p>
+        <span>- Rahul Sharma, Product Manager at DataCloud</span>
+    </div>
+    
+    <div class="testimonial-item">
+        <p>"If you're thinking about hiring Updesh, don’t hesitate. He’s reliable, efficient, and his work speaks for itself."</p>
+        <span>- Anjali Verma, Founder of InnovateAI</span>
+    </div>
+    
+    <div class="testimonial-item">
+        <p>"He exceeded all expectations. The end-to-end ML pipeline he built is robust and scalable. Highly recommended!"</p>
+        <span>- Sameer Khan, Lead Engineer at VisionEdge</span>
+    </div>
+    
+    <div class="testimonial-item">
+        <p>"A truly dedicated professional. He listens, adapts, and delivers top-notch solutions. We’re definitely working with him again."</p>
+        <span>- Priya Das, Project Lead at GenNext</span>
+    </div>
+</section>
+
+
+   <section id="contact">
+  <h2 class="sub-title">Contact Me</h2>
+  <div class="contact-container">
+    <!-- Left Side Info -->
+    <div class="contact-info">
+      <p><i class="fas fa-user"></i> Updesh (AI Engineer in making)</p>
+      <p><i class="fas fa-phone"></i> +91 9076540430</p>
+      <p><i class="fas fa-envelope"></i> singhupdesh186@example.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> Lucknow, UP, India</p>
+      <div class="social-links">
+        <a href="https://instagram.com/_updesh._" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/updesh" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/in/updesh-singh-357aa0344" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <!-- Right Side Form -->
+    <div class="contact-form">
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+    
+      
+
+    </main>
+ 
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portfolio Updesh Singh. All Rights Reserved.</p>
+        </div>
+
+    </footer>   
+
+    
+    
+    <a href="#top" class="scroll-top">Scroll to Top</a>
+
+
+
+    <script>
+        function toggleMenu() {
+    var sidemenu = document.getElementById("sidemenu");
+    sidemenu.style.display = sidemenu.style.display === "block" ? "none" : "block";
+    // sidemenu.style.display = sidemenu.style.justifyContent === "center" ? "center" : "center";
+
+}
+    </script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    const options = {
+        root: null, // Use the viewport as the container
+        rootMargin: '0px',
+        threshold: 0.5 // Trigger when 50% of the element is visible
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Get all portfolio items
+                const portfolioList = entry.target.querySelector('.portfolio-list');
+                portfolioList.style.opacity = 1; // Change opacity to 1
+
+                const portfolioItems = entry.target.querySelectorAll('.portfolio');
+                
+                portfolioItems.forEach((item, index) => {
+                    if (index === 0) { // First item - animate from the left
+                        item.style.animation = 'slideInFromLeft 0.5s forwards';
+                    } else if (index === portfolioItems.length - 1) { // Last item - animate from the right
+                        item.style.animation = 'slideInFromRight 0.5s forwards';
+                    } else if (index % 2 === 0) { // Even index - animate from the left
+                        item.style.animation = 'slideInFromLeft 0.5s forwards';
+                    } else { // Odd index - animate from the right
+                        item.style.animation = 'slideInFromRight 0.5s forwards';
+                    }
+                });
+
+                // For the middle item (the one that is centered)
+                const middleIndex = Math.floor(portfolioItems.length / 2);
+                const middleItem = portfolioItems[middleIndex];
+                middleItem.style.animation = 'slideInFromBottom 0.5s forwards';
+
+                // Re-observe the portfolio section to allow animation on scroll back
+                observer.unobserve(entry.target);
+            }
+        });
+    }, options);
+
+    // Observe the portfolio section
+    const portfolioSection = document.querySelector('#portfolio');
+    observer.observe(portfolioSection);
+});
+
+    </script> 
+
+    <script>
+        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-80px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
+
+<script>
+    function openTab(event, tabName) {
+        var i, tabcontents, tablinks;
+        
+        tabcontents = document.getElementsByClassName("tab-contents");
+        for (i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].style.display = "none";
+        }
+        
+        tablinks = document.getElementsByClassName("tab-link");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active-link", "");
+        }
+        
+        document.getElementById(tabName).style.display = "block";
+        event.currentTarget.className += " active-link";
+    }
+    
+    // Set the default tab to be active
+    document.getElementById("skills").style.display = "block";
+    </script>
+    
+    
+</body>
+</html>
